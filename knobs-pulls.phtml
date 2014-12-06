@@ -1,0 +1,491 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Kitchen Cabinet Knobs | USA Cabinet Hardware</title>
+<meta name="description" content="Kitchen cabinet knobs from Amerock, Belwith-Keeler, Berenson, Liberty Hardware, Emenee, Top Knobs and Topex.  Browse cabinet handle collections or use our selective cabinet hardware search.">
+<meta name="keywords" content="kitchen cabinet knobs, cabinet knob pull, cabinet hardware knob, decorative cabinet knobs, cabinet decorative door knobs, discount cabinet knobs, cabinet pulls,Amerock cabinet knobs, Belwith-Keeler cabinet knobs, Liberty Hardware cabinet knobs, Berenson cabinet knobs, Amerock cabinet pulls, Belwith-Keeler cabinet pulls, Liberty Hardware cabinet pulls, Berenson cabinet pulls, Emenee knobs, Top Knobs, cabinet hardware, stainless steel, sterling nickel, brushed nickel">
+<base href="http://www.usacabinethardware.com/">
+<link rel="StyleSheet" type="text/css" href="main.css?v=2">
+
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W2R9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W2R9');</script>
+<!-- End Google Tag Manager -->
+
+<div id="pageContainer">
+
+<table align="center" width="1000" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+
+<map name="_head">
+<area shape="rect" coords="91,37,597,81" href="index.html" alt="" >
+<area shape="rect" coords="888,71,980,92" href="search.html" alt="" >
+<area shape="rect" coords="877,50,980,71" href="contact.html" alt="" >
+<area shape="rect" coords="878,27,980,48" href="cgi-bin/usastore.pl?a=cart_display" alt="" >
+<area shape="rect" coords="830,96,980,120" href="customer-care.html" alt="" >
+<area shape="rect" coords="558,98,729,126" href="catches-locks.phtml" alt="" >
+<area shape="rect" coords="398,96,542,126" href="drawer-slides.phtml" alt="" >
+<area shape="rect" coords="303,97,382,126" href="hinges.phtml" alt="" >
+<area shape="rect" coords="133,96,288,126" href="knobs-pulls.phtml" alt="" >
+<area shape="rect" coords="872,0,980,25" href="cgi-bin/usastore.pl?a=checkout" alt="" >
+<area shape="rect" coords="339,112,340,113" href="#" alt="" >
+</map><img name="head" src="img/head.jpg" width="980" border="0" usemap="#_head" alt="USA Cabinet Hardware Logo &amp; Navigation">
+
+</td>
+</tr>
+<tr>
+<td style="padding-top:30px" valign="top">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+        <td valign="top">
+                <table border=0 cellpadding=5 cellspacing=0>
+                <tr><td class="detail" style="padding-right:30px">
+
+        <h1>Kitchen Cabinet Knobs and Pulls</h1>
+ <!--       <tr>
+        <td align="left"><br><br><img src="img/head-knob-and-pull-categories.gif" alt="Kitchen Cabinet Knob and Pull Categories"></td>
+        </tr>		-->
+        <table border="2" cellspacing="0" width="100%">
+        <tr>
+  <?php
+  $count = 1;
+  $line_count = 1;
+  $server = "localhost";
+  $user = "edweb";
+  $pass = "gh0rAc";
+  $db = "edirect";
+  $db_conn = new mysqli($server, $user, $pass, $db);
+
+  $cat_query = "SELECT section_id, section_name
+               FROM store_sections
+               WHERE aisle_id = 3800
+			   and sort_order != 0
+               ORDER BY sort_order ASC";
+
+  $stmt = $db_conn->stmt_init();
+
+if ($stmt->prepare($cat_query)) {
+	if ($stmt->execute()) {
+		$result = $stmt->get_result();
+	} else {
+		print "ERROR IN SQL OPERATION 19023";
+	}
+} else {
+	print "ERROR IN SQL OPERATION 19024";
+}
+
+
+
+  $count = 0;
+  while ($cat = $result->fetch_array()) {
+          if ($count == 4) {
+                  print "</tr><tr>";
+          }
+          $cat_id = $cat["section_id"];
+          $cat_name = $cat["section_name"];
+          print "<td class=\"catalogGridNav\"><a href=\"cgi-bin/usastore.pl?a=b&amp;cnid=$cat_id\">$cat_name</a></td>";
+          $count++;
+  }
+
+  $result->free();
+  $stmt->close();
+
+
+  ?>
+                        </tr>
+                        </table>
+		<p style="text-align:justify">
+        Helping you find the right kitchen cabinet knobs and pulls to add the finishing touches to your kitchen or bathroom cabinets is important to us.  We have developed several technologies to help make your kitchen cabinet knob and pull search more efficient.  You can browse hardware collections by brand, browse all brands by finish or style or search for pieces by description, finish, style, size or product id.</p>
+<br>
+
+        <p style="text-align:justify">The collection families, styles and finishes from Amerock, Hickory Hardware, Liberty, Berenson,
+        Century Hardware,
+		Bucksnort Lodge, Premier Hardware, Siro Designs, Schaub, Top Knobs, Emenee and Topex offer the finest in todays kitchen
+        cabinet knobs and pulls.  In
+        addition to the great selection, you can rest-assured knowing that you
+        have selected some of the best quality cabinet knobs and pulls on the market today.
+        You
+        are sure to find just what you have envisioned for your new kitchen or
+        recent kitchen update</p>
+        </td>
+        </tr>
+        <tr>
+        <td style="text-align:center;padding:10px">
+        <a href="cgi-bin/usasearch.pl?t=knobSearch">
+        <img border=0  src="img/banner-search-by.gif" width="400" height="40" alt="Advanced Search for Knobs and Pulls"></a>
+
+        <tr>
+        <td><br><br>
+            <table border="0" cellpadding="5" cellspacing="0">
+            <tr><td>
+            <img src="img/head-top-10-finishes.gif" alt="Most Popular Hardware Finishes">
+            <div class="tiny">
+            These are our top 10 most popular cabinet hardware finishes.
+            </div>
+            </td>
+            <td>
+            <img src="img/head-top-10-collections.gif" alt="Most Popular Decorative Hardware Collections">
+            <div class="tiny">
+            These are our top 10 most popular decorative hardware collections.
+            </div>
+            </td>
+            </tr>
+            <tr>
+            <td class="small">
+
+<?php
+$catCount = 0;
+
+
+// GET TOP FINISHES
+$query = "SELECT tt_position, tt_name
+                        FROM top_products
+                        WHERE tt_id = 1
+                        ORDER BY 1
+						LIMIT 10";
+
+  $stmt = $db_conn->stmt_init();
+
+if ($stmt->prepare($query)) {
+	if ($stmt->execute()) {
+		$result = $stmt->get_result();
+	} else {
+		print "ERROR IN SQL OPERATION 19025";
+	}
+} else {
+	print "ERROR IN SQL OPERATION 19026";
+}
+
+
+// PRINT TOP FINISHES
+while ($myrow = $result->fetch_array()) {
+        $position = $myrow["tt_position"];
+        $finish = $myrow["tt_name"];
+
+        echo "<span style=\"font-size:10pt\">${position} - <a href=\"http://www.usacabinethardware.com/cgi-bin/usastore.pl?a=b&amp;cnid=3800&amp;finish=$finish\">
+                         $finish</a></span><br><br>";
+
+}
+
+$result->free();
+$stmt->close();
+
+echo "</td><td class=small>";
+
+// GET TOP COLLECTIONS
+$query = "SELECT tt_position, tt_name
+                        FROM top_products
+                        WHERE tt_id = 3
+                        ORDER BY 1
+						LIMIT 10";
+
+  $stmt = $db_conn->stmt_init();
+
+if ($stmt->prepare($query)) {
+	if ($stmt->execute()) {
+		$result = $stmt->get_result();
+	} else {
+		print "ERROR IN SQL OPERATION 19027";
+	}
+} else {
+	print "ERROR IN SQL OPERATION 19028";
+}
+
+
+while ($myrow = $result->fetch_array()) {
+                list($bid, $cid) = split(":", $myrow["tt_name"]);
+                $position = $myrow["tt_position"];
+                $collquery = "SELECT coll_name, brand FROM collections as c, brands as b WHERE c.brand_id = b.brand_id and coll_id = $cid and c.brand_id = $bid";
+                $result2 = $db_conn->query($collquery);
+                $coll = $result2->fetch_array();
+
+                echo "<span style=\"font-size:10pt\">${position} - <a href=\"http://www.usacabinethardware.com/cgi-bin/usacollect.pl?st=2&amp;bid=$bid&amp;cid=$cid\">
+                $coll[1] - $coll[0]</a></span><br><br>";
+
+}
+
+$result2->close();
+$result->free();
+$stmt->close();
+
+echo "</td></tr>
+<tr><td colspan=2> <br><br>
+        <img src=\"img/head-top-10-knobs.gif\" alt=\"Most Popular Knob and Pull Styles\">
+        <div class=tiny>These are our top 10 most popular cabinet knobs and pulls.</div>
+        </td>
+        </tr><tr><td colspan=2>";
+
+//GET TOP KNOBS &amp; PULLS
+$query = "SELECT tt_position, tt_name, tt_img
+                        FROM top_products
+                        WHERE tt_id = 2
+                        ORDER BY 1
+						LIMIT 10";
+
+  $stmt = $db_conn->stmt_init();
+
+if ($stmt->prepare($query)) {
+	if ($stmt->execute()) {
+		$result = $stmt->get_result();
+	} else {
+		print "ERROR IN SQL OPERATION 19023";
+	}
+} else {
+	print "ERROR IN SQL OPERATION 19024";
+}
+
+
+echo "<table border=\"0\" width=\"100%\">";
+$count = 1;
+while ($count < 3) {
+        echo "<tr>";
+        for ($i=1; $i<6; $i++) {
+                $myrow = $result->fetch_array();
+                $pid = $myrow["tt_name"];
+                $imgsrc = $myrow["tt_img"];
+                if ($imgsrc == '') {
+                        $imgsrc = 'img-not-avail.gif';
+                }
+                echo "<td class=tiny valign=bottom style=\"padding-bottom:40px\"><a href=\"http://www.usacabinethardware.com/cgi-bin/usastore.pl?a=di&amp;pid=$pid\">
+                        <img src=\"http://www.usacabinethardware.com/img/$imgsrc\" width=80 border=0 alt=\"\"><br>$pid</a></td>";
+        }
+        echo "</tr>";
+        $count++;
+
+}
+
+$result->free();
+$stmt->close();
+$db_conn->close();
+
+?>
+
+                        </table>
+                </td>
+                </tr>
+                </table>
+        </td>
+        </tr>
+        </table>
+</td>
+<td class="detail" valign="top" width="35%">
+        <div class="catNav">
+        <div class="sectionHead"> DECORATIVE HARDWARE BRANDS</div>
+        <div class="sectionMain">
+			 <ul>
+			 <li><b>Amerock</b></li>
+                <ul>
+                <li>
+				<span><a href="cgi-bin/usastore.pl?a=b&amp;cnid=3800&amp;bid=639">Browse All</a></span>
+                <span><a href="cgi-bin/usacollect.pl?bid=639&amp;st=1">Browse Collections</a></span>
+				</li>
+                </ul>
+             <li><b>Belwith / Hickory</b></li>
+                <ul>
+                <li>
+				<span><a href="cgi-bin/usastore.pl?a=b&amp;cnid=3800&amp;bid=640">Browse All</a></span>
+                <span><a href="cgi-bin/usacollect.pl?bid=640&amp;st=1">Browse Collections</a></span>
+				</li>
+                </ul>
+			 <li><b>Berenson</b></li>
+                <ul>
+                <li>
+				<span><a href="cgi-bin/usastore.pl?a=b&amp;cnid=3800&amp;bid=638">Browse All</a></span>
+                <span><a href="cgi-bin/usacollect.pl?bid=638&amp;st=1">Browse Collections</a></span>
+				</li>
+                </ul>
+             <li><b>Bucksnort Lodge</b></li>
+                <ul>
+                <li>
+				<span><a href="cgi-bin/usastore.pl?a=b&amp;cnid=3800&amp;bid=644">Browse All</a></span>
+                <span><a href="cgi-bin/usacollect.pl?bid=644&amp;st=1">Browse Collections</a></span>
+				</li>
+                </ul>
+			 <li><b>Century Hardware</b></li>
+                <ul>
+                <li>
+				<span><a href="cgi-bin/usastore.pl?a=b&amp;cnid=3800&amp;bid=698">Browse All</a></span>
+                <span><a href="cgi-bin/usacollect.pl?bid=698&amp;st=1">Browse Collections</a></span>
+				</li>
+				</ul>
+			 <li><b>Emenee</b></li>
+                <ul>
+                <li>
+				<span><a href="cgi-bin/usastore.pl?a=b&amp;cnid=3800&amp;bid=704">Browse All</a></span>
+                <span><a href="cgi-bin/usacollect.pl?bid=704&amp;st=1">Browse Collections</a></span>
+				</li>
+                </ul>
+         	 <li><b>Liberty Hardware</b></li>
+                <ul>
+                <li>
+				<span><a href="cgi-bin/usastore.pl?a=b&amp;cnid=3800&amp;bid=637">Browse All</a></span>
+                <span><a href="cgi-bin/usacollect.pl?bid=637&amp;st=1">Browse Collections</a></span>
+				</li>
+                </ul>
+             <li><b>Premier Hardware</b></li>
+                <ul>
+                <li>
+				<span><a href="cgi-bin/usastore.pl?a=b&amp;cnid=3800&amp;bid=423">Browse All</a></span>
+                <span><a href="cgi-bin/usacollect.pl?bid=423&amp;st=1">Browse Collections</a></span>
+				</li>
+				</ul>
+             <li><b>Schaub &amp; Co.</b></li>
+                <ul>
+                <li>
+				<span><a href="cgi-bin/usastore.pl?a=b&amp;cnid=3800&amp;bid=642">Browse All</a></span>
+                <span><a href="cgi-bin/usacollect.pl?bid=642&amp;st=1">Browse Collections</a></span>
+				</li>
+				</ul>
+			 <li><b>SIRO</b></li>
+                <ul>
+                <li>
+				<span><a href="cgi-bin/usastore.pl?a=b&amp;cnid=3800&amp;bid=430">Browse All</a></span>
+                <span><a href="cgi-bin/usacollect.pl?bid=430&amp;st=1">Browse Collections</a></span>
+				</li>
+				</ul>
+			 <li><b>Top Knobs</b></li>
+                <ul>
+                <li>
+				<span><a href="cgi-bin/usastore.pl?a=b&amp;cnid=3800&amp;bid=700">Browse All</a></span>
+                <span><a href="cgi-bin/usacollect.pl?bid=700&amp;st=1">Browse Collections</a></span>
+				</li>
+                </ul>
+			 <li><b>Topex</b></li>
+                <ul>
+                <li>
+				<span><a href="cgi-bin/usastore.pl?a=b&amp;cnid=3800&amp;bid=701">Browse All</a></span>
+                <span><a href="cgi-bin/usacollect.pl?bid=701&amp;st=1">Browse Collections</a></span>
+				</li>
+                </ul>
+			</ul>
+        </div>
+
+		<br><br>
+
+		<div class="sectionHead"> SEARCH FOR KNOBS - PULLS - BACKPLATES</div>
+        <div class="sectionMain">
+                <ul style="padding-top:10px">
+                <li style="padding-bottom:10px">
+                <a href="cgi-bin/usastore.pl?a=cs&amp;t=knobSearch"><b>Selective Cabinet Knob Search</b></a><br>
+                <div class=small>Search our database of decorative cabinet hardware by
+                selecting from existing terms.</div></li>
+                <li>
+                <a href="search.html"><b>Cabinet Knob Keyword Search</b></a><br>
+                <div class=small>Enter a product number, finish type or description
+                to perform your own search.</div></li>
+                </ul>
+        </div>
+
+		<br><br>
+
+        <div class="sectionHead"> DECORATIVE HARDWARE REFERENCE</div>
+        <div class="sectionMain">
+                <ul style="padding-top:10px">
+                <li style="padding-bottom:10px">
+                <a href="knob-and-pull-terms.html"><b>Terms &amp; Abbreviations</b></a>
+                <div class=small>Get the low-down on the lingo in the cabinet hardware
+                circle.  </div></li>
+                <li style="padding-bottom:10px">
+                <a href="hardware-install-tips.pdf"><b>Installation/Replacement</b></a>
+                <div class=small>How to measure existing knobs, handles or backplates...
+                what to do if you can't find hardware for odd size...
+                </div></li>
+                <li>
+                <a href="knob-and-pull-faq.html"><b>Decorative Knob &amp; Pull FAQ </b></a>
+                <div class=small>Some frequently asked questions (and answers!)
+                regarding decorative cabinet hardware.
+                </div></li>
+                </ul>
+        </div>
+
+</td>
+</tr>
+</table>
+
+    <div id="pageFooter">
+
+      <div class="pageFooterBox"><span><a href="knobs-pulls.phtml">Cabinet Knobs & Pulls</a></span>
+ 		<ul>
+          <li><a href="cgi-bin/usastore.pl?a=b&cnid=66000">Handle Pulls</a></li>
+          <li><a href="cgi-bin/usastore.pl?a=b&cnid=66002">Cabinet Knobs</a></li>
+          <li><a href="cgi-bin/usastore.pl?a=b&cnid=66001">Cup Pulls</a></li>
+          <li><a href="cgi-bin/usastore.pl?a=b&cnid=66006">Bar Pulls</a></li>
+          <li><a href="cgi-bin/usastore.pl?a=b&cnid=66007">Appliance Pulls</a></li>
+          <li><a href="cgi-bin/usastore.pl?a=b&cnid=66004">Backplates</a></li>
+          <li><a href="cgi-bin/usastore.pl?a=b&cnid=66003">Ring, Bail & Pendant</a></li>
+          </ul>
+	 </div>
+	<div class="pageFooterBox"><span><a href="hinges.phtml">Cabinet Hinges</a></span>
+		<ul>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66020">Inset</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66021">Overlay</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66030">Euro</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66025">Knife</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66024">Concealed</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66028">Semi-Concealed</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66029">Non-Concealed</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66022">Side Mount</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66023">Surface Mount</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66027">Specialty</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66026">Mounting Plates</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66032">Miscellaneous</a></li>
+		</ul>
+	</div>
+    <div class="pageFooterBox"><span><a href="drawer-slides.phtml">Drawer Slides</a></span>
+		<ul>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66040">3/4 Extension</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66041">Full Extension</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66042">Overtravel</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66044">Side Mount</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66045">Side/Bottom Mount</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66046">Under Mount</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66047">Flat Mount</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66043">Specialty</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66048">Miscellaneous</a></li>
+		</ul>
+	</div>
+    <div class="pageFooterBox"><span><a href="catches-locks.phtml">Catches & Locks</a></span>
+		<ul>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66060">Magnetic Catches</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66061">Roller Catches</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66062">Mechanical Catches</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66063">Ball & Bullet Catches</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66064">Cam Locks</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66065">Deabolt Locks</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66066">Gang Locks</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66068">Other Locks</a></li>
+			<li><a href="cgi-bin/usastore.pl?a=b&cnid=66067">Lock Accessories</a></li>
+		</ul>
+	</div>
+    <div class="pageFooterBox"><span><a href="customer-care.html">Customer Care</a></span>
+                <ul>
+                <li><a href="policies.html#returns">Returns</a></li>
+                <li><a href="policies.html#shipping">Shipping & Handling</a></li>
+                <li><a href="policies.html#privacy">Privacy & Security</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="care-faq.html">Customer Care FAQ</a></li>
+                </ul>
+	</div>
+
+
+
+        <div id="copy">
+        Copyright &copy; 2013 usacabinethardware.com by Everything Direct Inc.<br>
+        1046 39th Ave W<br>
+        West Fargo, ND 58078<br>
+        1.866.570.3272<br>
+        <a href="mailto:webadmin@usacabinethardware.com">webadmin</a>
+        </div>
+	</div>
+</div>
+</body>
+</html>
+

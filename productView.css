@@ -1,0 +1,35 @@
+body {
+font-family: Tahoma, Verdana, Arial, Geneva, sans-serif;
+background-color: #FFFFFF;
+text-align: center;
+font-size: 10pt;
+color: #000000;
+margin-top: 0px;
+margin-left: 0
+}
+
+h1 {
+  font-size: 15pt;
+  font-weight: bold;
+  margin-bottom: 0px;
+  text-align: left;
+
+}
+
+.detail {
+font-size: 9pt;
+}
+
+
+.normal {
+font-size: 11pt;
+}
+
+.small {
+font-size: 8pt;
+}
+
+.tiny {
+font-size: 7pt;
+}
+
